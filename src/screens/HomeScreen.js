@@ -1,3 +1,4 @@
+// src/screens/HomeScreen.js
 import React, { useState } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
@@ -61,7 +62,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 30,
     right: 30,
-    backgroundColor: '#000',
+    backgroundColor: '#5B7BFE',
     width: 60,
     height: 60,
     borderRadius: 30,
